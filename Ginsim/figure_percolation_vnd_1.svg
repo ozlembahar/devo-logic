@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd">
+<svg width="573.0" height="663.0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <style type="text/css">
+text {
+  font-family: 'SansSerif';
+  font-size: 12px;
+}
+.node .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node text {
+fill: #000000;
+}
+.node_node_style .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style text {
+fill: #000000;
+}
+.node_node_style_2 .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style_2 text {
+fill: #000000;
+}
+.edge {
+stroke: #000000;
+fill: none;
+stroke-width: 1;
+}
+.edge_POSITIVE {
+stroke: #00c800;
+}
+.edge_NEGATIVE {
+stroke: #c80000;
+}
+.edge_DUAL {
+stroke: #0000c8;
+}
+.edge_edge_style {
+stroke: #c80000;
+fill: none;
+stroke-width: 1;
+}
+.edge_edge_style_2 {
+stroke: #00c800;
+fill: none;
+stroke-width: 1;
+}
+.custom_0 .shape { fill: #c81919; }
+.custom_m1 .shape { fill: #ffffff; }
+.custom_1 .shape { fill: #64af64; }
+.custom_m2 .shape { fill: #afafaf; }
+.custom_2 .shape { fill: #64e164; }
+.custom_active { stroke: #808080;}
+.custom_inactive {stroke: #808080;}
+</style>
+  <defs>
+    <marker id="Marker_NEGATIVE_808080" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#808080" fill="#808080" d="M -1 -4 L -1 4 L 1 4 L 1 -4 z"/>
+    </marker>
+  </defs>
+  <path class="edge custom_inactive" marker-end="url(#Marker_NEGATIVE_808080)" d="M 515.0 591.0 L 479.0 624.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_NEGATIVE_808080)" d="M 503.0 583.0 L 487.0 583.0 L 441.0 583.0 L 422.0 583.0"/>
+  <defs>
+    <marker id="Marker_POSITIVE_808080" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#808080" fill="#808080" d="M -4 -5 L -2 0 L -4 5 L 2 0 z"/>
+    </marker>
+  </defs>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 506.0 305.0 L 475.0 332.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_NEGATIVE_808080)" d="M 459.0 302.0 L 459.0 335.0"/>
+  <path class="edge custom_active" marker-end="url(#Marker_NEGATIVE_808080)" d="M 409.0 591.0 L 446.0 624.0"/>
+  <path class="edge custom_active" marker-end="url(#Marker_NEGATIVE_808080)" d="M 421.0 567.0 L 470.0 567.0 L 501.0 567.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 459.0 366.0 L 459.0 392.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_NEGATIVE_808080)" d="M 530.0 538.0 L 530.0 558.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 412.0 305.0 L 442.0 332.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 445.0 425.0 L 409.0 458.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_NEGATIVE_808080)" d="M 460.0 423.0 L 460.0 459.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 475.0 425.0 L 515.0 458.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_NEGATIVE_808080)" d="M 530.0 487.0 L 530.0 512.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 541.0 460.0 L 541.0 447.0 L 568.0 447.0 L 568.0 474.0 L 556.0 474.0"/>
+  <path class="edge custom_inactive" marker-end="url(#Marker_POSITIVE_808080)" d="M 394.0 492.0 L 394.0 558.0"/>
+  <g id="Spi" class="node custom_m2">
+    <rect id="Spi_shape" class="shape" width="50" height="30" x="496" y="273"/>
+    <text  id="Spi_text" x="521" y="291" text-anchor="middle">Spi</text>
+  </g>
+  <g id="Vn" class="node custom_m2">
+    <rect id="Vn_shape" class="shape" width="50" height="30" x="373" y="273"/>
+    <text  id="Vn_text" x="398" y="291" text-anchor="middle">Vn</text>
+  </g>
+  <g id="Egfr" class="node custom_m1">
+    <rect id="Egfr_shape" class="shape" width="50" height="30" x="434" y="336"/>
+    <text  id="Egfr_text" x="459" y="354" text-anchor="middle">Egfr</text>
+  </g>
+  <g id="Rl" class="node custom_m1">
+    <rect id="Rl_shape" class="shape" width="50" height="30" x="435" y="393"/>
+    <text  id="Rl_text" x="460" y="411" text-anchor="middle">Rl</text>
+  </g>
+  <g id="Aop" class="node custom_m1">
+    <rect id="Aop_shape" class="shape" width="50" height="30" x="436" y="460"/>
+    <text  id="Aop_text" x="461" y="478" text-anchor="middle">Aop</text>
+  </g>
+  <g id="Pnt" class="node custom_m1">
+    <rect id="Pnt_shape" class="shape" width="50" height="30" x="369" y="462"/>
+    <text  id="Pnt_text" x="394" y="480" text-anchor="middle">Pnt</text>
+  </g>
+  <g id="ind" class="node custom_0">
+    <rect id="ind_shape" class="shape" width="50" height="30" x="505" y="559"/>
+    <text  id="ind_text" x="530" y="577" text-anchor="middle">ind</text>
+  </g>
+  <g id="vnd" class="node custom_1">
+    <rect id="vnd_shape" class="shape" width="50" height="30" x="369" y="559"/>
+    <text  id="vnd_text" x="394" y="577" text-anchor="middle">vnd</text>
+  </g>
+  <g id="msh" class="node custom_0">
+    <rect id="msh_shape" class="shape" width="50" height="30" x="438" y="628"/>
+    <text  id="msh_text" x="463" y="646" text-anchor="middle">msh</text>
+  </g>
+  <g id="Aos" class="node custom_m2">
+    <rect id="Aos_shape" class="shape" width="50" height="30" x="435" y="272"/>
+    <text  id="Aos_text" x="460" y="290" text-anchor="middle">Aos</text>
+  </g>
+  <g id="pGro" class="node custom_m1">
+    <ellipse id="pGro_shape" class="shape" cx="530.5" cy="474.5" rx="22.5" ry="12.5"/>
+    <text  id="pGro_text" x="530" y="477" text-anchor="middle">pGro</text>
+  </g>
+  <g id="Gro" class="node custom_m1">
+    <ellipse id="Gro_shape" class="shape" cx="530.5" cy="525.5" rx="22.5" ry="12.5"/>
+    <text  id="Gro_text" x="530" y="528" text-anchor="middle">Gro</text>
+  </g>
+</svg>
