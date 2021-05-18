@@ -19,12 +19,33 @@ require(textshape)
 PathwayData<-column_to_rownames(PathwayData, loc = 1)
 PathwayData <- PathwayData[-c(49, 50)]
 
+
+##get mean of related columns
+PathwayData = data.frame(
+  IC_4.6h=rowMeans(PathwayData[, c(37, 39)]), 
+  IC_6.8h=rowMeans(PathwayData[, c(38, 40)]),                                                     
+  VC_4.6h =rowMeans(PathwayData[, c(45, 47)]),                 
+  VC_6.8h =rowMeans(PathwayData[, c(46, 48)]), 
+  NB_4.6h =rowMeans(PathwayData[, c(17, 19)]), #pros
+  NB_6.8h=rowMeans(PathwayData[, c(18, 20)]), 
+  Neuron.6.8h=rowMeans(PathwayData[, c(8, 11)]), #elav
+  Neuron_8.10h  =rowMeans(PathwayData[, c(9, 12)]),                            
+  Neuron_18.22h =rowMeans(PathwayData[, c(10, 7)]),                            
+  Glia_6.8h =rowMeans(PathwayData[, c(28, 31)]),   #repo                         
+  Glia_8.10h=rowMeans(PathwayData[, c(29, 32)]),                       
+  Glia_18.22h=rowMeans(PathwayData[, c(27, 30)]))
+
+
+
+
+
 # perform binarization with k-means
 binarizedData <- binarizeTimeSeries(PathwayData, method = "kmeans")
 head(binarizedData)
 
 # save binarized datasets as xls
-write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries.xlsx") 
+require(xlsx)
+write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries-Rowmeans.xlsx") 
 write.xlsx(as.data.frame(binarizedData), file="EdgeDetector-BinarizedTimeSeries.xlsx") 
 write.xlsx(as.data.frame(binarizedData), file="ScanStatistic-BinarizedTimeSeries.xlsx") 
 
@@ -55,3 +76,41 @@ binarizedData  <-binarizedData[ ,grepl("pos", colnames(binarizedData))]
 binarizedData <- binarizedData[, -c(1:8)]
 
 ggplot(binarizedData$binarizedMeasurements.vnd_pos1_4.6, aes(x=rownames(binarizedData), y=c("st8", "st10", "st12")))
+
+#Check expression graph of pnt
+require(dplyr)
+
+pnt_exp <- PathwayData %>%  filter(Gene_symbol == "pnt")
+pnt_exp <- column_to_rownames(pnt_exp, loc = 1)
+pnt_exp <- as.data.frame(t(PathwayData))
+pnt_exp$time <- rownames(pnt_exp)
+require(reshape2)
+pnt_exp <- melt(pnt_exp, id.vars=c("time"))
+
+
+require(ggplot2)
+library(hrbrthemes)
+pnt <- filter(pnt_exp, variable == "pnt")
+pnt %>% 
+  ggplot(aes(x=time, y=value, group = 1))+ 
+  labs(x="Developmental time", y= "Gene expression", title="Pnt expression")+
+  geom_point(shape=21, color="black", fill="#000000", size=3)+ 
+  geom_line(color="grey")+
+  theme_ipsum()+
+  scale_x_discrete(limits = c("IC_4.6h", 
+                              "IC_6.8h",                                                     
+                              "VC_4.6h",                 
+                              "VC_6.8h", 
+                              "NB_4.6h",
+                              "NB_6.8h", 
+                              "Neuron.6.8h", 
+                             "Neuron_8.10h",                            
+                              "Neuron_18.22h",                            
+                              "Glia_6.8h",                      
+                              "Glia_8.10h",                       
+                              "Glia_18.22h"))+
+theme(axis.text.x = element_text(angle = 60), plot.title = element_text(hjust = 0.5))# Rotate axis labels
+ 
+ 
+ 
+
