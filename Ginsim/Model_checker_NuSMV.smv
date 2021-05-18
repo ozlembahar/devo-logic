@@ -1,0 +1,502 @@
+-- May 17, 2021 at 12:01:05 PM CEST
+--
+-- NuSMV implicit representation of a logical model exported by GINsim
+--
+-- Requires NuSMV v2.1+ for CTL properties
+--
+-- Requires NuSMV-ARCTL for ARCTL properties
+-- http://lvl.info.ucl.ac.be/Tools/NuSMV-ARCTL-TLACE
+
+MODULE main
+
+IVAR
+-- Simulation mode declaration --
+-- Asynchronous
+  PCs : { PC_c1, PC_c2, PC_c3, PC_c4, PC_c5, PC_c6, PC_c7, PC_c8, PC_c9, PC_c10, PC_c11, PC_c14, PC_c15, PC_c16, PC_c17, PC_c18, PC_c19, PC_c20, PC_c21, PC_c22, PC_c23 };
+  PC_c1_vars : { PC_c1_Wg };
+  PC_c2_vars : { PC_c2_Hh };
+  PC_c3_vars : { PC_c3_Ptc };
+  PC_c4_vars : { PC_c4_Smo };
+  PC_c5_vars : { PC_c5_Pka };
+  PC_c6_vars : { PC_c6_Ci_act };
+  PC_c7_vars : { PC_c7_wg };
+  PC_c8_vars : { PC_c8_Ci_rep };
+  PC_c9_vars : { PC_c9_Fz };
+  PC_c10_vars : { PC_c10_en };
+  PC_c11_vars : { PC_c11_hh };
+  PC_c14_vars : { PC_c14_Egfr };
+  PC_c15_vars : { PC_c15_Rl };
+  PC_c16_vars : { PC_c16_Pnt };
+  PC_c17_vars : { PC_c17_pGro };
+  PC_c18_vars : { PC_c18_Gro };
+  PC_c19_vars : { PC_c19_vnd };
+  PC_c20_vars : { PC_c20_ind };
+  PC_c21_vars : { PC_c21_msh };
+  PC_c22_vars : { PC_c22_Glial_cells };
+  PC_c23_vars : { PC_c23_Proneural };
+
+-- Input variables declaration
+  Spi : { 0, 1};
+  Aos : { 0, 1};
+
+VAR
+
+-- State variables declaration
+  Ci_act : {0, 1};
+  Ci_rep : {0, 1};
+  Fz : {0, 1};
+  Gro : {0, 1};
+  Hh : {0, 1};
+  Pka : {0, 1};
+  Pnt : {0, 1};
+  Rl : {0, 1};
+  Smo : {0, 1};
+  Wg : {0, 1};
+  en : {0, 1};
+  pGro : {0, 1};
+  Egfr : {0, 1};
+  Ptc : {0, 1};
+  hh : {0, 1};
+  msh : {0, 1};
+  vnd : {0, 1};
+  wg : {0, 1};
+  Glial_cells : {0, 1};
+  ind : {0, 1};
+  Proneural : {0, 1};
+
+ASSIGN
+-- Variable update if conditions are met
+next(Wg) := 
+  case
+    update_Wg_OK & (Wg_inc) : 1;
+    update_Wg_OK & (Wg_dec) : 0;
+    TRUE : Wg;
+  esac;
+next(Hh) := 
+  case
+    update_Hh_OK & (Hh_inc) : 1;
+    update_Hh_OK & (Hh_dec) : 0;
+    TRUE : Hh;
+  esac;
+next(Ptc) := 
+  case
+    update_Ptc_OK & (Ptc_inc) : 1;
+    update_Ptc_OK & (Ptc_dec) : 0;
+    TRUE : Ptc;
+  esac;
+next(Smo) := 
+  case
+    update_Smo_OK & (Smo_inc) : 1;
+    update_Smo_OK & (Smo_dec) : 0;
+    TRUE : Smo;
+  esac;
+next(Pka) := 
+  case
+    update_Pka_OK & (Pka_inc) : 1;
+    update_Pka_OK & (Pka_dec) : 0;
+    TRUE : Pka;
+  esac;
+next(Ci_act) := 
+  case
+    update_Ci_act_OK & (Ci_act_inc) : 1;
+    update_Ci_act_OK & (Ci_act_dec) : 0;
+    TRUE : Ci_act;
+  esac;
+next(wg) := 
+  case
+    update_wg_OK & (wg_inc) : 1;
+    update_wg_OK & (wg_dec) : 0;
+    TRUE : wg;
+  esac;
+next(Ci_rep) := 
+  case
+    update_Ci_rep_OK & (Ci_rep_inc) : 1;
+    update_Ci_rep_OK & (Ci_rep_dec) : 0;
+    TRUE : Ci_rep;
+  esac;
+next(Fz) := 
+  case
+    update_Fz_OK & (Fz_inc) : 1;
+    update_Fz_OK & (Fz_dec) : 0;
+    TRUE : Fz;
+  esac;
+next(en) := 
+  case
+    update_en_OK & (en_inc) : 1;
+    update_en_OK & (en_dec) : 0;
+    TRUE : en;
+  esac;
+next(hh) := 
+  case
+    update_hh_OK & (hh_inc) : 1;
+    update_hh_OK & (hh_dec) : 0;
+    TRUE : hh;
+  esac;
+next(Egfr) := 
+  case
+    update_Egfr_OK & (Egfr_inc) : 1;
+    update_Egfr_OK & (Egfr_dec) : 0;
+    TRUE : Egfr;
+  esac;
+next(Rl) := 
+  case
+    update_Rl_OK & (Rl_inc) : 1;
+    update_Rl_OK & (Rl_dec) : 0;
+    TRUE : Rl;
+  esac;
+next(Pnt) := 
+  case
+    update_Pnt_OK & (Pnt_inc) : 1;
+    update_Pnt_OK & (Pnt_dec) : 0;
+    TRUE : Pnt;
+  esac;
+next(pGro) := 
+  case
+    update_pGro_OK & (pGro_inc) : 1;
+    update_pGro_OK & (pGro_dec) : 0;
+    TRUE : pGro;
+  esac;
+next(Gro) := 
+  case
+    update_Gro_OK & (Gro_inc) : 1;
+    update_Gro_OK & (Gro_dec) : 0;
+    TRUE : Gro;
+  esac;
+next(vnd) := 
+  case
+    update_vnd_OK & (vnd_inc) : 1;
+    update_vnd_OK & (vnd_dec) : 0;
+    TRUE : vnd;
+  esac;
+next(ind) := 
+  case
+    update_ind_OK & (ind_inc) : 1;
+    update_ind_OK & (ind_dec) : 0;
+    TRUE : ind;
+  esac;
+next(msh) := 
+  case
+    update_msh_OK & (msh_inc) : 1;
+    update_msh_OK & (msh_dec) : 0;
+    TRUE : msh;
+  esac;
+next(Glial_cells) := 
+  case
+    update_Glial_cells_OK & (Glial_cells_inc) : 1;
+    update_Glial_cells_OK & (Glial_cells_dec) : 0;
+    TRUE : Glial_cells;
+  esac;
+next(Proneural) := 
+  case
+    update_Proneural_OK & (Proneural_inc) : 1;
+    update_Proneural_OK & (Proneural_dec) : 0;
+    TRUE : Proneural;
+  esac;
+
+DEFINE
+-- Variable next level regulation
+Wg_focal :=
+  case
+    (wg = 1) : 1;
+    TRUE : 0;
+  esac;
+Hh_focal :=
+  case
+    (hh = 1) : 1;
+    TRUE : 0;
+  esac;
+Ptc_focal :=
+  case
+    (Hh = 0) & (en = 0) : 1;
+    TRUE : 0;
+  esac;
+Smo_focal :=
+  case
+    (Ptc = 0) : 1;
+    TRUE : 0;
+  esac;
+Pka_focal :=
+  case
+    (Smo = 0) : 1;
+    TRUE : 0;
+  esac;
+Ci_act_focal :=
+  case
+    (Smo = 1) : 1;
+    TRUE : 0;
+  esac;
+wg_focal :=
+  case
+    (Ci_act = 1) & (Ci_rep = 0) : 1;
+    TRUE : 0;
+  esac;
+Ci_rep_focal :=
+  case
+    (Pka = 1) : 1;
+    TRUE : 0;
+  esac;
+Fz_focal :=
+  case
+    (Wg = 1) : 1;
+    TRUE : 0;
+  esac;
+en_focal :=
+  case
+    (Fz = 1) : 1;
+    TRUE : 0;
+  esac;
+hh_focal :=
+  case
+    (Ci_rep = 0) & (en = 1) : 1;
+    TRUE : 0;
+  esac;
+Egfr_focal :=
+  case
+    (Spi = 1) & (Aos = 0) : 1;
+    TRUE : 0;
+  esac;
+Rl_focal :=
+  case
+    (Egfr = 1) : 1;
+    TRUE : 0;
+  esac;
+Pnt_focal :=
+  case
+    (Rl = 1) : 1;
+    TRUE : 0;
+  esac;
+pGro_focal :=
+  case
+    (Rl = 0) & (pGro = 1) : 1;
+    (Rl = 1) : 1;
+    TRUE : 0;
+  esac;
+Gro_focal :=
+  case
+    (pGro = 0) : 1;
+    TRUE : 0;
+  esac;
+vnd_focal :=
+  case
+    (Pnt = 1) & (ind = 0) : 1;
+    TRUE : 0;
+  esac;
+ind_focal :=
+  case
+    (en = 1) & (Gro = 0) & (vnd = 0) : 1;
+    TRUE : 0;
+  esac;
+msh_focal :=
+  case
+    (vnd = 0) & (ind = 0) : 1;
+    TRUE : 0;
+  esac;
+Glial_cells_focal :=
+  case
+    (wg = 0) & (en = 1) & (msh = 1) : 1;
+    (wg = 1) & (msh = 1) : 1;
+    TRUE : 0;
+  esac;
+Proneural_focal :=
+  case
+    (wg = 0) & (en = 1) & (vnd = 0) & (ind = 0) & (msh = 1) : 1;
+    (wg = 0) & (en = 1) & (vnd = 0) & (ind = 1) : 1;
+    (wg = 0) & (en = 1) & (vnd = 1) : 1;
+    (wg = 1) & (vnd = 0) & (ind = 0) & (msh = 1) : 1;
+    (wg = 1) & (vnd = 0) & (ind = 1) : 1;
+    (wg = 1) & (vnd = 1) : 1;
+    TRUE : 0;
+  esac;
+
+Wg_inc := Wg_focal > Wg;
+Wg_dec := Wg_focal < Wg;
+Wg_std := Wg_focal = Wg;
+
+Hh_inc := Hh_focal > Hh;
+Hh_dec := Hh_focal < Hh;
+Hh_std := Hh_focal = Hh;
+
+Ptc_inc := Ptc_focal > Ptc;
+Ptc_dec := Ptc_focal < Ptc;
+Ptc_std := Ptc_focal = Ptc;
+
+Smo_inc := Smo_focal > Smo;
+Smo_dec := Smo_focal < Smo;
+Smo_std := Smo_focal = Smo;
+
+Pka_inc := Pka_focal > Pka;
+Pka_dec := Pka_focal < Pka;
+Pka_std := Pka_focal = Pka;
+
+Ci_act_inc := Ci_act_focal > Ci_act;
+Ci_act_dec := Ci_act_focal < Ci_act;
+Ci_act_std := Ci_act_focal = Ci_act;
+
+wg_inc := wg_focal > wg;
+wg_dec := wg_focal < wg;
+wg_std := wg_focal = wg;
+
+Ci_rep_inc := Ci_rep_focal > Ci_rep;
+Ci_rep_dec := Ci_rep_focal < Ci_rep;
+Ci_rep_std := Ci_rep_focal = Ci_rep;
+
+Fz_inc := Fz_focal > Fz;
+Fz_dec := Fz_focal < Fz;
+Fz_std := Fz_focal = Fz;
+
+en_inc := en_focal > en;
+en_dec := en_focal < en;
+en_std := en_focal = en;
+
+hh_inc := hh_focal > hh;
+hh_dec := hh_focal < hh;
+hh_std := hh_focal = hh;
+
+Egfr_inc := Egfr_focal > Egfr;
+Egfr_dec := Egfr_focal < Egfr;
+Egfr_std := Egfr_focal = Egfr;
+
+Rl_inc := Rl_focal > Rl;
+Rl_dec := Rl_focal < Rl;
+Rl_std := Rl_focal = Rl;
+
+Pnt_inc := Pnt_focal > Pnt;
+Pnt_dec := Pnt_focal < Pnt;
+Pnt_std := Pnt_focal = Pnt;
+
+pGro_inc := pGro_focal > pGro;
+pGro_dec := pGro_focal < pGro;
+pGro_std := pGro_focal = pGro;
+
+Gro_inc := Gro_focal > Gro;
+Gro_dec := Gro_focal < Gro;
+Gro_std := Gro_focal = Gro;
+
+vnd_inc := vnd_focal > vnd;
+vnd_dec := vnd_focal < vnd;
+vnd_std := vnd_focal = vnd;
+
+ind_inc := ind_focal > ind;
+ind_dec := ind_focal < ind;
+ind_std := ind_focal = ind;
+
+msh_inc := msh_focal > msh;
+msh_dec := msh_focal < msh;
+msh_std := msh_focal = msh;
+
+Glial_cells_inc := Glial_cells_focal > Glial_cells;
+Glial_cells_dec := Glial_cells_focal < Glial_cells;
+Glial_cells_std := Glial_cells_focal = Glial_cells;
+
+Proneural_inc := Proneural_focal > Proneural;
+Proneural_dec := Proneural_focal < Proneural;
+Proneural_std := Proneural_focal = Proneural;
+
+update_Wg_OK := (PCs = PC_c1) & (PC_c1_vars = PC_c1_Wg);
+update_Hh_OK := (PCs = PC_c2) & (PC_c2_vars = PC_c2_Hh);
+update_Ptc_OK := (PCs = PC_c3) & (PC_c3_vars = PC_c3_Ptc);
+update_Smo_OK := (PCs = PC_c4) & (PC_c4_vars = PC_c4_Smo);
+update_Pka_OK := (PCs = PC_c5) & (PC_c5_vars = PC_c5_Pka);
+update_Ci_act_OK := (PCs = PC_c6) & (PC_c6_vars = PC_c6_Ci_act);
+update_wg_OK := (PCs = PC_c7) & (PC_c7_vars = PC_c7_wg);
+update_Ci_rep_OK := (PCs = PC_c8) & (PC_c8_vars = PC_c8_Ci_rep);
+update_Fz_OK := (PCs = PC_c9) & (PC_c9_vars = PC_c9_Fz);
+update_en_OK := (PCs = PC_c10) & (PC_c10_vars = PC_c10_en);
+update_hh_OK := (PCs = PC_c11) & (PC_c11_vars = PC_c11_hh);
+update_Egfr_OK := (PCs = PC_c14) & (PC_c14_vars = PC_c14_Egfr);
+update_Rl_OK := (PCs = PC_c15) & (PC_c15_vars = PC_c15_Rl);
+update_Pnt_OK := (PCs = PC_c16) & (PC_c16_vars = PC_c16_Pnt);
+update_pGro_OK := (PCs = PC_c17) & (PC_c17_vars = PC_c17_pGro);
+update_Gro_OK := (PCs = PC_c18) & (PC_c18_vars = PC_c18_Gro);
+update_vnd_OK := (PCs = PC_c19) & (PC_c19_vars = PC_c19_vnd);
+update_ind_OK := (PCs = PC_c20) & (PC_c20_vars = PC_c20_ind);
+update_msh_OK := (PCs = PC_c21) & (PC_c21_vars = PC_c21_msh);
+update_Glial_cells_OK := (PCs = PC_c22) & (PC_c22_vars = PC_c22_Glial_cells);
+update_Proneural_OK := (PCs = PC_c23) & (PC_c23_vars = PC_c23_Proneural);
+
+-- DISCLAIMER: There are no INput nor OUTput variables in the weak/strong stable states description
+stableStates := weakSS | strongSS;
+
+-- Weak stable states differing only on input variables will not be distinguished !!
+weakSS := weakSS1 | weakSS2 | weakSS3 | weakSS4 | weakSS5 | weakSS6 | weakSS7;
+weakSS1 := Wg=0 & Hh=0 & Ptc=1 & Smo=0 & Pka=1 & Ci_act=0 & wg=0 & Ci_rep=1 & Fz=0 & en=0 & hh=0 & Egfr=1 & Rl=1 & Pnt=1 & pGro=1 & Gro=0 & vnd=1 & ind=0 & msh=0 & Glial_cells=0 & Proneural=0;
+weakSS2 := Wg=1 & Hh=1 & Ptc=0 & Smo=1 & Pka=0 & Ci_act=1 & wg=1 & Ci_rep=0 & Fz=1 & en=1 & hh=1 & Egfr=0 & Rl=0 & Pnt=0 & pGro=1 & Gro=0 & vnd=0 & ind=1 & msh=0 & Glial_cells=0 & Proneural=1;
+weakSS3 := Wg=0 & Hh=0 & Ptc=1 & Smo=0 & Pka=1 & Ci_act=0 & wg=0 & Ci_rep=1 & Fz=0 & en=0 & hh=0 & Egfr=0 & Rl=0 & Pnt=0 & pGro=0 & Gro=1 & vnd=0 & ind=0 & msh=1 & Glial_cells=0 & Proneural=0;
+weakSS4 := Wg=1 & Hh=1 & Ptc=0 & Smo=1 & Pka=0 & Ci_act=1 & wg=1 & Ci_rep=0 & Fz=1 & en=1 & hh=1 & Egfr=1 & Rl=1 & Pnt=1 & pGro=1 & Gro=0 & vnd=1 & ind=0 & msh=0 & Glial_cells=0 & Proneural=1;
+weakSS5 := Wg=0 & Hh=0 & Ptc=1 & Smo=0 & Pka=1 & Ci_act=0 & wg=0 & Ci_rep=1 & Fz=0 & en=0 & hh=0 & Egfr=0 & Rl=0 & Pnt=0 & pGro=1 & Gro=0 & vnd=0 & ind=0 & msh=1 & Glial_cells=0 & Proneural=0;
+weakSS6 := Wg=1 & Hh=1 & Ptc=0 & Smo=1 & Pka=0 & Ci_act=1 & wg=1 & Ci_rep=0 & Fz=1 & en=1 & hh=1 & Egfr=0 & Rl=0 & Pnt=0 & pGro=0 & Gro=1 & vnd=0 & ind=0 & msh=1 & Glial_cells=1 & Proneural=1;
+weakSS7 := Wg=1 & Hh=1 & Ptc=0 & Smo=1 & Pka=0 & Ci_act=1 & wg=1 & Ci_rep=0 & Fz=1 & en=1 & hh=1 & Egfr=1 & Rl=1 & Pnt=1 & pGro=1 & Gro=0 & vnd=0 & ind=1 & msh=0 & Glial_cells=0 & Proneural=1;
+
+-- Strong stable states - for every valuation of input variables
+strongSS := FALSE;
+
+-- Declaration of output variables
+-- Empty !
+
+-- Authorized NuSMV transitions
+TRANS
+next(Wg) != Wg |
+next(Hh) != Hh |
+next(Ptc) != Ptc |
+next(Smo) != Smo |
+next(Pka) != Pka |
+next(Ci_act) != Ci_act |
+next(wg) != wg |
+next(Ci_rep) != Ci_rep |
+next(Fz) != Fz |
+next(en) != en |
+next(hh) != hh |
+next(Egfr) != Egfr |
+next(Rl) != Rl |
+next(Pnt) != Pnt |
+next(pGro) != pGro |
+next(Gro) != Gro |
+next(vnd) != vnd |
+next(ind) != ind |
+next(msh) != msh |
+next(Glial_cells) != Glial_cells |
+next(Proneural) != Proneural |
+(Wg_std & Hh_std & Ptc_std & Smo_std & Pka_std & Ci_act_std & wg_std & Ci_rep_std & Fz_std & en_std & hh_std & Egfr_std & Rl_std & Pnt_std & pGro_std & Gro_std & vnd_std & ind_std & msh_std & Glial_cells_std & Proneural_std); -- or it is a steady state
+
+DEFINE
+-- Declaration of core variables restriction list
+-- Empty !
+
+-- Declaration of input variables restriction list
+-- Empty !
+
+--------------------------------------------------
+-- Reachability Properties using VARYING INPUTS --
+-- i.e. there is NO CONTROL on the input change at each transition
+--
+-- EXAMPLES --
+-- 1. Between an initial state (pattern) and a stable state (pattern)
+--   a. Existence of at least one path connecting two state patterns
+-- INIT initState;
+-- SPEC EF ( stableState );
+--   b. Existence of all the paths connecting two state patterns
+-- INIT initState;
+-- SPEC AF ( stableState );
+--
+-- 2. Between all the weak/strong stable states
+-- INIT weakSS1;
+--  SPEC EF ( weakSS2 );
+--  ...
+--  SPEC EF ( weakSSn );
+--------------------------------------------------
+-- Reachability Properties using FIXED INPUTS --
+-- i.e. a VALUE RESTRICTION can be forced at each transition
+-- 
+-- 1. Between an initial state (pattern) and a stable state (pattern)
+--   a. Existence of at least one path connecting two state patterns
+-- INIT initState; SPEC EAF ( inpVar1=0 & inpVar3=1 )( stableState );
+--   b. Existence of all the paths
+-- INIT initState; SPEC AAF ( inpVar1=0 & inpVar3=1 )( stableState );
+--
+-- 2. Testing input combinations
+-- INIT weakSS1;
+--  SPEC EAF ( inpVar1=0 & inpVar2=0 )( weakSS2 );
+--  SPEC EAF ( inpVar1=0 & inpVar2=1 )( weakSS2 );
+--  SPEC EAF ( inpVar1=1 & inpVar2=0 )( weakSS2 );
+--  SPEC EAF ( inpVar1=1 & inpVar2=1 )( weakSS2 );
+--  ...
