@@ -4,7 +4,7 @@ require(readxl)
 require(readr)
 setwd("~/Documents/Git/DevelopmentalSignaling")
 Genelist <- read_xlsx("Egfr-Hh-Wg-Gene-List-FlybaseIDs.xlsx")
-
+Genelist <- Genelist[-c(2,3,5,7:9,11:13, 14:16,18,19),]
 #Get the dataset
 DataMatSym <- read.csv(file ="DatamatSym.csv")
 
@@ -112,5 +112,33 @@ pnt %>%
 theme(axis.text.x = element_text(angle = 60), plot.title = element_text(hjust = 0.5))# Rotate axis labels
  
  
- 
+# Plot all of the genes at the same time
+gene_exp<- as.data.frame(t(PathwayData))
+gene_exp$time <- rownames(gene_exp)
+require(reshape2)
+gene_exp<- melt(gene_exp, id.vars=c("time"))
+
+  
+  
+gene_exp %>% 
+  ggplot(aes(x=time, y=value, col = variable, group = variable))+ 
+  geom_line()+
+  geom_point()+
+  labs(x="Developmental time", y= "Count")+
+  scale_y_log10()+
+  theme_ipsum()+
+  scale_x_discrete(limits = c("IC_4.6h", 
+                              "IC_6.8h",                                                     
+                              "VC_4.6h",                 
+                              "VC_6.8h", 
+                              "NB_4.6h",
+                              "NB_6.8h", 
+                              "Neuron.6.8h", 
+                              "Neuron_8.10h",                            
+                              "Neuron_18.22h",                            
+                              "Glia_6.8h",                      
+                              "Glia_8.10h",                       
+                              "Glia_18.22h"))+
+  theme(axis.text.x = element_text(angle = 60), plot.title = element_text(hjust = 0.5))# Rotate axis labels
+
 
