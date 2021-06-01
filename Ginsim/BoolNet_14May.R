@@ -141,4 +141,39 @@ gene_exp %>%
                               "Glia_18.22h"))+
   theme(axis.text.x = element_text(angle = 60), plot.title = element_text(hjust = 0.5))# Rotate axis labels
 
+# get path to attractor
+require(xlsx)
+Attractors <- read_xlsx("Egfr-Hh-Wg-ss-table.xlsx", sheet = "20May21", col_names=TRUE)
+model <- loadNetwork(file = "Ginsim/Bnet_Hh-Wg-Egfr-20May.bnet")
 
+#Generate a starting state
+inputs = sapply(model$interactions, "[[", "expression") == sapply(model, names)$interactions 
+path.starting.state = (BoolNet::getPathToAttractor(model, as.numeric(inputs)))
+
+
+#Generate a starting state in which the input node also is 0
+start.state <- getPathToAttractor(model, rep(0, 23))
+par(mar = c(1, 10, 2.5, 2))
+plotSequence(sequence= start.state, offColor = "#CCCCCC", onColor = "#006633", reverse = F, title = "An attractor of an un-stimulated cell")
+
+#Simulate when starting conditions set to 0
+par(mar = c(1, 10, 2.5, 2))
+plotSequence(sequence = start.state,  offColor = "#CCCCCC", onColor = "#006633", reverse = F, title = "An attractor of an un-stimulated cell" )
+
+#Simulate Spi input
+ko.state = model
+ko.state$interactions$Spi$func = rep(1, length(ko.state$interactions$Spi$func))
+ko.state$interactions$Hh$func = rep(0, length(ko.state$interactions$Hh$func))
+ko.state$interactions$Wg$func = rep(0, length(ko.state$interactions$Wg$func))
+attractorpath = getPathToAttractor(ko.state, as.numeric(inputs))
+par(mar = c(1, 10, 2.5, 2))
+attractor.results = plotSequence(sequence = attractorpath,  offColor = "#CCCCCC", onColor = "#006633", reverse = F, title = "Spi=1 Hh=0 Wg=0" )
+
+#Simulate Egfr input
+ko.state = model
+ko.state$interactions$Spi$func = rep(0, length(ko.state$interactions$Spi$func))
+ko.state$interactions$Hh$func = rep(1, length(ko.state$interactions$Hh$func))
+ko.state$interactions$Wg$func = rep(1, length(ko.state$interactions$Wg$func))
+attractorpath = getPathToAttractor(ko.state, as.numeric(inputs))
+par(mar = c(1, 10, 2.5, 2))
+attractor.results = plotSequence(sequence = attractorpath,  offColor = "#CCCCCC", onColor = "#006633", reverse = T, title = "Spi=0 Hh=1 Wg=1" )
