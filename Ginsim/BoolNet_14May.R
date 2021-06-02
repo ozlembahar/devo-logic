@@ -4,7 +4,7 @@ require(readxl)
 require(readr)
 setwd("~/Documents/Git/DevelopmentalSignaling")
 Genelist <- read_xlsx("Egfr-Hh-Wg-Gene-List-FlybaseIDs.xlsx")
-Genelist <- Genelist[-c(2,3,5,7:9,11:13, 14:16,18,19),]
+Genelist <- Genelist[c(1,4,6,9:13,18,19,21:23),]
 #Get the dataset
 DataMatSym <- read.csv(file ="DatamatSym.csv")
 
@@ -45,7 +45,7 @@ head(binarizedData)
 
 # save binarized datasets as xls
 require(xlsx)
-write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries-Rowmeans.xlsx") 
+write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries_13Genes.xlsx") 
 write.xlsx(as.data.frame(binarizedData), file="EdgeDetector-BinarizedTimeSeries.xlsx") 
 write.xlsx(as.data.frame(binarizedData), file="ScanStatistic-BinarizedTimeSeries.xlsx") 
 
@@ -73,7 +73,7 @@ scanSta<-column_to_rownames(scanSta, loc = 1)
 binarizedData <- as.data.frame(binarizedData)
 require(ggplot2)
 binarizedData  <-binarizedData[ ,grepl("pos", colnames(binarizedData))]
-binarizedData <- binarizedData[, -c(1:8)]
+binarizedData <- binarizedData[, -c(1:13)]
 
 ggplot(binarizedData$binarizedMeasurements.vnd_pos1_4.6, aes(x=rownames(binarizedData), y=c("st8", "st10", "st12")))
 
@@ -124,21 +124,13 @@ gene_exp %>%
   ggplot(aes(x=time, y=value, col = variable, group = variable))+ 
   geom_line()+
   geom_point()+
-  labs(x="Developmental time", y= "Count")+
+  labs(x="Neurogenic populations", y= "Count")+
   scale_y_log10()+
   theme_ipsum()+
   scale_x_discrete(limits = c("IC_4.6h", 
-                              "IC_6.8h",                                                     
-                              "VC_4.6h",                 
-                              "VC_6.8h", 
-                              "NB_4.6h",
-                              "NB_6.8h", 
-                              "Neuron.6.8h", 
-                              "Neuron_8.10h",                            
-                              "Neuron_18.22h",                            
-                              "Glia_6.8h",                      
-                              "Glia_8.10h",                       
-                              "Glia_18.22h"))+
+                              "VC_4.6h",
+                              "IC_6.8h",
+                              "VC_6.8h"))+
   theme(axis.text.x = element_text(angle = 60), plot.title = element_text(hjust = 0.5))# Rotate axis labels
 
 

@@ -1,0 +1,8 @@
+setwd("~/Documents/Git/DevelopmentalSignaling")
+require(igraph)
+require(readxl)
+require(readr)
+library("devtools");install_github("Sun-lab/CARseq")
+install.packages("RcppArmadillo")
+install.packages("RcppArmadillo", repos="https://rcppcore.github.io/drat")
+require(CARseq)
