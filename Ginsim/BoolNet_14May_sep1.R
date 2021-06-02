@@ -4,7 +4,13 @@ require(readxl)
 require(readr)
 setwd("~/Documents/Git/DevelopmentalSignaling")
 Genelist <- read_xlsx("Egfr-Hh-Wg-Gene-List-FlybaseIDs.xlsx")
+<<<<<<< HEAD
 Genelist <- Genelist[c(1,4,6,9:13,18,19,21:23),]
+=======
+Genelist<- read_xlsx("Network Inference Data and Tables/TrimNetwork/signaling-network1.xlsx", sheet = "Neurogenic_Pathway26May")
+
+Genelist <- Genelist[-c(2,3,5,7:9,11:13, 14:16,18,19),]
+>>>>>>> 6eabdcec0c73f73d45a68052ca810c84ac0c8cfe
 #Get the dataset
 DataMatSym <- read.csv(file ="DatamatSym.csv")
 
@@ -16,8 +22,8 @@ PathwayData <- merge(DataMatSym, Genelist, by="Gene_symbol")
 
 install.packages("textshape")
 require(textshape)
-PathwayData<-column_to_rownames(PathwayData, loc = 1)
-PathwayData <- PathwayData[-c(49, 50)]
+PathwayData <-column_to_rownames(PathwayData, loc = 1)
+PathwayData <- PathwayData[-c(22, 28), ]
 
 
 ##get mean of related columns
@@ -45,7 +51,11 @@ head(binarizedData)
 
 # save binarized datasets as xls
 require(xlsx)
+<<<<<<< HEAD
 write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries_13Genes.xlsx") 
+=======
+write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries-Rowmeans-Neuronics-Pathways.xlsx") 
+>>>>>>> 6eabdcec0c73f73d45a68052ca810c84ac0c8cfe
 write.xlsx(as.data.frame(binarizedData), file="EdgeDetector-BinarizedTimeSeries.xlsx") 
 write.xlsx(as.data.frame(binarizedData), file="ScanStatistic-BinarizedTimeSeries.xlsx") 
 
@@ -133,4 +143,39 @@ gene_exp %>%
                               "VC_6.8h"))+
   theme(axis.text.x = element_text(angle = 60), plot.title = element_text(hjust = 0.5))# Rotate axis labels
 
+# get path to attractor
+require(xlsx)
+Attractors <- read_xlsx("Egfr-Hh-Wg-ss-table.xlsx", sheet = "20May21", col_names=TRUE)
+model <- loadNetwork(file = "Ginsim/Bnet_Hh-Wg-Egfr-20May.bnet")
 
+#Generate a starting state
+inputs = sapply(model$interactions, "[[", "expression") == sapply(model, names)$interactions 
+path.starting.state = (BoolNet::getPathToAttractor(model, as.numeric(inputs)))
+
+
+#Generate a starting state in which the input node also is 0
+start.state <- getPathToAttractor(model, rep(0, 23))
+par(mar = c(1, 10, 2.5, 2))
+plotSequence(sequence= start.state, offColor = "#CCCCCC", onColor = "#006633", reverse = F, title = "An attractor of an un-stimulated cell")
+
+#Simulate when starting conditions set to 0
+par(mar = c(1, 10, 2.5, 2))
+plotSequence(sequence = start.state,  offColor = "#CCCCCC", onColor = "#006633", reverse = F, title = "An attractor of an un-stimulated cell" )
+
+#Simulate Spi input
+ko.state = model
+ko.state$interactions$Spi$func = rep(1, length(ko.state$interactions$Spi$func))
+ko.state$interactions$Hh$func = rep(0, length(ko.state$interactions$Hh$func))
+ko.state$interactions$Wg$func = rep(0, length(ko.state$interactions$Wg$func))
+attractorpath = getPathToAttractor(ko.state, as.numeric(inputs))
+par(mar = c(1, 10, 2.5, 2))
+attractor.results = plotSequence(sequence = attractorpath,  offColor = "#CCCCCC", onColor = "#006633", reverse = F, title = "Spi=1 Hh=0 Wg=0" )
+
+#Simulate Egfr input
+ko.state = model
+ko.state$interactions$Spi$func = rep(0, length(ko.state$interactions$Spi$func))
+ko.state$interactions$Hh$func = rep(1, length(ko.state$interactions$Hh$func))
+ko.state$interactions$Wg$func = rep(1, length(ko.state$interactions$Wg$func))
+attractorpath = getPathToAttractor(ko.state, as.numeric(inputs))
+par(mar = c(1, 10, 2.5, 2))
+attractor.results = plotSequence(sequence = attractorpath,  offColor = "#CCCCCC", onColor = "#006633", reverse = T, title = "Spi=0 Hh=1 Wg=1" )
