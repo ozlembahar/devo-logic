@@ -4,13 +4,13 @@ require(readxl)
 require(readr)
 setwd("~/Documents/Git/DevelopmentalSignaling")
 Genelist <- read_xlsx("Egfr-Hh-Wg-Gene-List-FlybaseIDs.xlsx")
-<<<<<<< HEAD
+
 Genelist <- Genelist[c(1,4,6,9:13,18,19,21:23),]
-=======
+
 Genelist<- read_xlsx("Network Inference Data and Tables/TrimNetwork/signaling-network1.xlsx", sheet = "Neurogenic_Pathway26May")
 
 Genelist <- Genelist[-c(2,3,5,7:9,11:13, 14:16,18,19),]
->>>>>>> 6eabdcec0c73f73d45a68052ca810c84ac0c8cfe
+
 #Get the dataset
 DataMatSym <- read.csv(file ="DatamatSym.csv")
 
@@ -24,7 +24,7 @@ install.packages("textshape")
 require(textshape)
 PathwayData <-column_to_rownames(PathwayData, loc = 1)
 PathwayData <- PathwayData[-c(22, 28), ]
-
+PathwayData <- PathwayData[,-c(50, 51) ]
 
 ##get mean of related columns
 PathwayData = data.frame(
@@ -51,11 +51,11 @@ head(binarizedData)
 
 # save binarized datasets as xls
 require(xlsx)
-<<<<<<< HEAD
+
 write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries_13Genes.xlsx") 
-=======
+
 write.xlsx(as.data.frame(binarizedData), file="Kmeans-BinarizedTimeSeries-Rowmeans-Neuronics-Pathways.xlsx") 
->>>>>>> 6eabdcec0c73f73d45a68052ca810c84ac0c8cfe
+
 write.xlsx(as.data.frame(binarizedData), file="EdgeDetector-BinarizedTimeSeries.xlsx") 
 write.xlsx(as.data.frame(binarizedData), file="ScanStatistic-BinarizedTimeSeries.xlsx") 
 
