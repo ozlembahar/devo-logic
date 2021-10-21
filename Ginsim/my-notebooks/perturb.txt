@@ -8,6 +8,10 @@ ind%0
 msh%0
 ac%0
 svp%0
-en%0,gsb%0
-wg%0,gsb%0
-en%0,hkb%0
+en%0 gsb%0
+wg%0 gsb%0
+en%0 wg%0
+en%0 vnd%0
+en%0 ind%0
+en%0 msh%0
+

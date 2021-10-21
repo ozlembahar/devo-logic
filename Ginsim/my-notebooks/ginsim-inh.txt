@@ -1,0 +1,7 @@
+
+BTK%0
+RelA_p50%0
+PI3K%0
+BCL2%0
+RelA_p50%0 BCL2%0
+BCL2%0 PI3K%0
