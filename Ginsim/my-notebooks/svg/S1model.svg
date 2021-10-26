@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd">
+<svg width="751.0" height="887.0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <style type="text/css">
+text {
+  font-family: 'SansSerif';
+  font-size: 12px;
+}
+.node .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node text {
+fill: #000000;
+}
+.node_node_style .shape {
+fill: #ffffcc;
+stroke: #000000;
+}
+.node_node_style text {
+fill: #000000;
+}
+.node_node_style_2 .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style_2 text {
+fill: #000000;
+}
+.node_node_style_4 .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style_4 text {
+fill: #000000;
+}
+.node_node_style .shape {
+fill: #ffffcc;
+stroke: #000000;
+}
+.node_node_style text {
+fill: #000000;
+}
+.node_glia_node .shape {
+fill: #53ab27;
+stroke: #000000;
+}
+.node_glia_node text {
+fill: #000000;
+}
+.node_node_style_4 .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style_4 text {
+fill: #000000;
+}
+.node_node_style_5 .shape {
+fill: #ff6565;
+stroke: #000000;
+}
+.node_node_style_5 text {
+fill: #000000;
+}
+.node_node_style .shape {
+fill: #ffffcc;
+stroke: #000000;
+}
+.node_node_style text {
+fill: #000000;
+}
+.node_node_style_2 .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style_2 text {
+fill: #000000;
+}
+.node_node_style_4 .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node_node_style_4 text {
+fill: #000000;
+}
+.node_node_style_3 .shape {
+fill: #999999;
+stroke: #000000;
+}
+.node_node_style_3 text {
+fill: #000000;
+}
+.node_glia_node .shape {
+fill: #339900;
+stroke: #000000;
+}
+.node_glia_node text {
+fill: #000000;
+}
+.node_node_style_5 .shape {
+fill: #9999ff;
+stroke: #000000;
+}
+.node_node_style_5 text {
+fill: #000000;
+}
+.node_node_style_6 .shape {
+fill: #add5fa;
+stroke: #000000;
+}
+.node_node_style_6 text {
+fill: #000000;
+}
+.node_node_style_7 .shape {
+fill: #ea80ea;
+stroke: #000000;
+}
+.node_node_style_7 text {
+fill: #000000;
+}
+.node_node_style_8 .shape {
+fill: #0c7921;
+stroke: #000000;
+}
+.node_node_style_8 text {
+fill: #000000;
+}
+.edge {
+stroke: #000000;
+fill: none;
+stroke-width: 1;
+}
+.edge_POSITIVE {
+stroke: #00c800;
+}
+.edge_NEGATIVE {
+stroke: #c80000;
+}
+.edge_DUAL {
+stroke: #0000c8;
+}
+.edge_edge_style_2 {
+stroke: #c80000;
+fill: none;
+stroke-width: 1;
+}
+.edge_edge_style {
+stroke: #00cc33;
+fill: none;
+stroke-width: 1;
+}
+.edge_edge_style_2 {
+stroke: #c80000;
+fill: none;
+stroke-width: 1;
+}
+.edge_edge_style {
+stroke: #00c800;
+fill: none;
+stroke-width: 1;
+}
+.edge_circuit_edge_2 {
+stroke: #00c800;
+fill: none;
+stroke-width: 1;
+}
+.edge_circuit_edge {
+stroke: #c80000;
+fill: none;
+stroke-width: 1;
+}
+</style>
+  <defs>
+    <marker id="Marker_POSITIVE_00cc33" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#00cc33" fill="#00cc33" d="M -4 -5 L -2 0 L -4 5 L 2 0 z"/>
+    </marker>
+  </defs>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 456.0 287.0 L 456.0 288.0 L 456.0 302.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 455.0 343.0 L 455.0 511.0 L 368.0 511.0"/>
+  <defs>
+    <marker id="Marker_NEGATIVE_c80000" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#c80000" fill="#c80000" d="M -1 -4 L -1 4 L 1 4 L 1 -4 z"/>
+    </marker>
+  </defs>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 451.0 343.0 L 451.0 436.0 L 365.0 436.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 448.0 343.0 L 448.0 396.0 L 281.0 396.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 468.0 343.0 L 468.0 717.0 L 649.0 717.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 463.0 343.0 L 463.0 784.0 L 504.0 784.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 459.0 343.0 L 459.0 620.0 L 368.0 620.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 456.0 190.0 L 456.0 203.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 716.0 187.0 L 716.0 238.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 554.0 350.0 L 554.0 384.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 616.0 334.0 L 580.0 334.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 651.0 322.0 L 651.0 307.0 L 678.0 307.0 L 678.0 334.0 L 666.0 334.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 671.0 842.0 L 671.0 870.0 L 447.0 870.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 718.0 344.0 L 718.0 379.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 187.0 597.0 L 187.0 688.0 L 373.0 688.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 184.0 597.0 L 184.0 746.0 L 288.0 746.0 L 372.0 746.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 180.0 597.0 L 180.0 790.0 L 504.0 790.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 171.0 597.0 L 171.0 873.0 L 375.0 873.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 199.0 558.0 L 199.0 549.0 L 226.0 528.0 L 229.0 528.0"/>
+  <defs>
+    <marker id="Marker_POSITIVE_00c800" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#00c800" fill="#00c800" d="M -4 -5 L -2 0 L -4 5 L 2 0 z"/>
+    </marker>
+  </defs>
+  <path class="edge edge_POSITIVE" marker-end="url(#Marker_POSITIVE_00c800)" d="M 175.0 597.0 L 175.0 820.0 L 638.0 820.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 455.0 134.0 L 455.0 154.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 584.0 399.0 Q 621.0,399.0 658.0,399.0 Q 672.0,399.0 687.0,399.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 555.0 425.0 L 555.0 492.0 L 604.0 492.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 543.0 425.0 L 543.0 745.0 L 444.0 745.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 547.0 425.0 L 547.0 556.0 L 593.0 556.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 264.0 532.0 L 264.0 680.0 L 373.0 680.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 260.0 532.0 L 260.0 742.0 L 372.0 742.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 256.0 532.0 L 256.0 869.0 L 375.0 869.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 239.0 532.0 L 239.0 540.0 L 212.0 561.0 L 209.0 561.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 267.0 532.0 L 267.0 624.0 L 306.0 624.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 259.0 315.0 L 259.0 335.0 L 313.0 335.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 253.0 315.0 L 253.0 373.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 338.0 348.0 Q 338.0,376.0 338.0,405.0 Q 338.0,410.0 338.0,416.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 337.0 531.0 L 337.0 600.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 623.0 580.0 L 623.0 707.0 L 649.0 707.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 617.0 580.0 L 617.0 789.0 L 576.0 789.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 254.0 409.0 L 254.0 410.0 L 254.0 491.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 310.0 437.0 L 266.0 437.0 L 266.0 491.0"/>
+  <defs>
+    <marker id="Marker_NEGATIVE_00cc33" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#00cc33" fill="#00cc33" d="M -1 -4 L -1 4 L 1 4 L 1 -4 z"/>
+    </marker>
+  </defs>
+  <path class="edge edge_NEGATIVE edge_edge_style" marker-end="url(#Marker_NEGATIVE_00cc33)" d="M 338.0 452.0 L 338.0 453.0 L 338.0 490.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 689.0 412.0 Q 662.0,412.0 635.0,412.0 C 625.0,412.0 625.0,412.0 615.0,412.0 Q 600.0,412.0 585.0,412.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 714.0 420.0 L 714.0 489.0 L 666.0 489.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 738.0 420.0 L 738.0 875.0 L 447.0 875.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 729.0 420.0 L 729.0 793.0 L 576.0 793.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 719.0 420.0 L 719.0 564.0 L 655.0 564.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 734.0 420.0 L 734.0 821.0 L 700.0 821.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 723.0 420.0 L 723.0 630.0 L 368.0 630.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 253.0 239.0 L 253.0 279.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 227.0 232.0 L 228.0 232.0 L 181.0 263.0 L 181.0 556.0"/>
+  <path class="edge edge_NEGATIVE edge_edge_style_2" marker-end="url(#Marker_NEGATIVE_c80000)" d="M 254.0 170.0 L 254.0 203.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 717.0 274.0 L 717.0 308.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 690.0 262.0 L 641.0 262.0 L 641.0 318.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 456.0 239.0 L 456.0 251.0"/>
+  <path class="edge edge_POSITIVE edge_edge_style" marker-end="url(#Marker_POSITIVE_00cc33)" d="M 483.0 224.0 L 483.0 224.0 L 509.0 251.0 L 509.0 564.0 L 593.0 564.0"/>
+  <g id="Hh" class="node node_node_style">
+    <rect id="Hh_shape" class="shape" width="60" height="40" x="224" y="128"/>
+    <text  id="Hh_text" x="254" y="151" text-anchor="middle">Hh</text>
+  </g>
+  <g id="Ptc" class="node node_node_style_2">
+    <rect id="Ptc_shape" class="shape" width="50" height="30" x="229" y="207"/>
+    <text  id="Ptc_text" x="254" y="225" text-anchor="middle">Ptc</text>
+  </g>
+  <g id="Smo" class="node node_node_style_2">
+    <rect id="Smo_shape" class="shape" width="50" height="30" x="228" y="283"/>
+    <text  id="Smo_text" x="253" y="301" text-anchor="middle">Smo</text>
+  </g>
+  <g id="Pka" class="node node_node_style_4">
+    <ellipse id="Pka_shape" class="shape" cx="339.5" cy="333.5" rx="22.5" ry="12.5"/>
+    <text  id="Pka_text" x="339" y="336" text-anchor="middle">Pka</text>
+  </g>
+  <g id="Ci_act" class="node node_node_style_2">
+    <rect id="Ci_act_shape" class="shape" width="50" height="30" x="228" y="377"/>
+    <text  id="Ci_act_text" x="253" y="395" text-anchor="middle">Ci_act</text>
+  </g>
+  <g id="Ci_rep" class="node node_node_style_2">
+    <rect id="Ci_rep_shape" class="shape" width="50" height="30" x="312" y="420"/>
+    <text  id="Ci_rep_text" x="337" y="438" text-anchor="middle">Ci_rep</text>
+  </g>
+  <g id="Wg" class="node node_node_style">
+    <rect id="Wg_shape" class="shape" width="60" height="40" x="425" y="92"/>
+    <text  id="Wg_text" x="455" y="115" text-anchor="middle">Wg</text>
+  </g>
+  <g id="Fz" class="node node_node_style_2">
+    <rect id="Fz_shape" class="shape" width="50" height="30" x="431" y="158"/>
+    <text  id="Fz_text" x="456" y="176" text-anchor="middle">Fz</text>
+  </g>
+  <g id="Arm" class="node node_node_style_2">
+    <rect id="Arm_shape" class="shape" width="50" height="30" x="431" y="207"/>
+    <text  id="Arm_text" x="456" y="225" text-anchor="middle">Arm</text>
+  </g>
+  <g id="Pan" class="node node_node_style_2">
+    <rect id="Pan_shape" class="shape" width="50" height="30" x="432" y="255"/>
+    <text  id="Pan_text" x="457" y="273" text-anchor="middle">Pan</text>
+  </g>
+  <g id="Egfr" class="node node_node_style">
+    <rect id="Egfr_shape" class="shape" width="60" height="40" x="686" y="145"/>
+    <text  id="Egfr_text" x="716" y="168" text-anchor="middle">Egfr</text>
+  </g>
+  <g id="Rl" class="node node_node_style_2">
+    <rect id="Rl_shape" class="shape" width="50" height="30" x="692" y="242"/>
+    <text  id="Rl_text" x="717" y="260" text-anchor="middle">Rl</text>
+  </g>
+  <g id="Pnt" class="node node_node_style_2">
+    <rect id="Pnt_shape" class="shape" width="50" height="30" x="693" y="312"/>
+    <text  id="Pnt_text" x="718" y="330" text-anchor="middle">Pnt</text>
+  </g>
+  <g id="pGro" class="node node_node_style_4">
+    <ellipse id="pGro_shape" class="shape" cx="640.5" cy="334.5" rx="22.5" ry="12.5"/>
+    <text  id="pGro_text" x="640" y="337" text-anchor="middle">pGro</text>
+  </g>
+  <g id="Gro" class="node node_node_style_4">
+    <ellipse id="Gro_shape" class="shape" cx="554.5" cy="335.5" rx="22.5" ry="12.5"/>
+    <text  id="Gro_text" x="554" y="338" text-anchor="middle">Gro</text>
+  </g>
+  <g id="wg" class="node node_node_style_3">
+    <rect id="wg_shape" class="shape" width="55" height="35" x="233" y="495"/>
+    <text  id="wg_text" x="260" y="515" text-anchor="middle">wg</text>
+  </g>
+  <g id="en" class="node node_node_style_3">
+    <rect id="en_shape" class="shape" width="55" height="35" x="430" y="306"/>
+    <text  id="en_text" x="457" y="326" text-anchor="middle">en</text>
+  </g>
+  <g id="hh" class="node node_node_style_3">
+    <rect id="hh_shape" class="shape" width="55" height="35" x="310" y="494"/>
+    <text  id="hh_text" x="337" y="514" text-anchor="middle">hh</text>
+  </g>
+  <g id="gsb" class="node node_node_style_3">
+    <rect id="gsb_shape" class="shape" width="55" height="35" x="151" y="560"/>
+    <text  id="gsb_text" x="178" y="580" text-anchor="middle">gsb</text>
+  </g>
+  <g id="vnd" class="node node_node_style_3">
+    <rect id="vnd_shape" class="shape" width="55" height="35" x="691" y="383"/>
+    <text  id="vnd_text" x="718" y="403" text-anchor="middle">vnd</text>
+  </g>
+  <g id="ind" class="node node_node_style_3">
+    <rect id="ind_shape" class="shape" width="55" height="35" x="527" y="388"/>
+    <text  id="ind_text" x="554" y="408" text-anchor="middle">ind</text>
+  </g>
+  <g id="msh" class="node node_node_style_3">
+    <rect id="msh_shape" class="shape" width="55" height="35" x="608" y="466"/>
+    <text  id="msh_text" x="635" y="486" text-anchor="middle">msh</text>
+  </g>
+  <g id="svp" class="node node_node_style_3">
+    <rect id="svp_shape" class="shape" width="55" height="35" x="642" y="805"/>
+    <text  id="svp_text" x="669" y="825" text-anchor="middle">svp</text>
+  </g>
+  <g id="ac" class="node node_node_style_3">
+    <rect id="ac_shape" class="shape" width="55" height="35" x="597" y="543"/>
+    <text  id="ac_text" x="624" y="563" text-anchor="middle">ac</text>
+  </g>
+  <g id="hkb" class="node node_node_style_3">
+    <rect id="hkb_shape" class="shape" width="55" height="35" x="310" y="604"/>
+    <text  id="hkb_text" x="337" y="624" text-anchor="middle">hkb</text>
+  </g>
+  <g id="NB7_1" class="node">
+    <ellipse id="NB7_1_shape" class="shape" cx="540.5" cy="791.5" rx="32.5" ry="12.5"/>
+    <text  id="NB7_1_text" x="540" y="794" text-anchor="middle">NB7_1</text>
+  </g>
+  <g id="NB7_4" class="node">
+    <ellipse id="NB7_4_shape" class="shape" cx="685.5" cy="706.5" rx="32.5" ry="12.5"/>
+    <text  id="NB7_4_text" x="685" y="709" text-anchor="middle">NB7_4</text>
+  </g>
+  <g id="NB5_6" class="node">
+    <ellipse id="NB5_6_shape" class="shape" cx="409.5" cy="682.5" rx="32.5" ry="12.5"/>
+    <text  id="NB5_6_text" x="409" y="685" text-anchor="middle">NB5_6</text>
+  </g>
+  <g id="NB5_3" class="node">
+    <ellipse id="NB5_3_shape" class="shape" cx="408.5" cy="742.5" rx="32.5" ry="12.5"/>
+    <text  id="NB5_3_text" x="408" y="745" text-anchor="middle">NB5_3</text>
+  </g>
+  <g id="NB5_2" class="node">
+    <ellipse id="NB5_2_shape" class="shape" cx="411.5" cy="869.5" rx="32.5" ry="12.5"/>
+    <text  id="NB5_2_text" x="411" y="872" text-anchor="middle">NB5_2</text>
+  </g>
+</svg>
