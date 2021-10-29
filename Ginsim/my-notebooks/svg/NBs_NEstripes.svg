@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
    sodipodi:docname="NBs_NEstripes.svg"
-   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
    inkscape:export-filename="/Users/ybahar/Desktop/NBs.png"
    inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata115">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,15 +42,15 @@
      inkscape:snap-global="true"
      inkscape:snap-center="true"
      inkscape:snap-bbox="true"
-     inkscape:zoom="0.6251321"
-     inkscape:cx="326.66824"
-     inkscape:cy="727.76412"
+     inkscape:zoom="0.44203515"
+     inkscape:cx="183.24335"
+     inkscape:cy="988.60917"
      inkscape:window-width="1667"
      inkscape:window-height="926"
-     inkscape:window-x="1495"
-     inkscape:window-y="112"
+     inkscape:window-x="128"
+     inkscape:window-y="401"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g24298"
      inkscape:document-rotation="0" />
   <defs
      id="defs2">
@@ -198,173 +198,7 @@
   <g
      inkscape:groupmode="layer"
      inkscape:label="Chart-Layer: gsb:4,wg:4,vnd:4,svp:4"
-     id="g4357">
-    <rect
-       style="fill:#0000d4;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5"
-       width="10.384377"
-       height="9.1861801"
-       x="160.64075"
-       y="213.49591"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#0bcbfe;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5-6"
-       width="10.384377"
-       height="9.1861801"
-       x="160.64075"
-       y="249.6407"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#48bd00;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5-0"
-       width="10.384377"
-       height="9.1861801"
-       x="160.64075"
-       y="231.5683"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#c87137;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5-0-7-7"
-       width="10.384377"
-       height="9.1861801"
-       x="160.64075"
-       y="159.27873"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#ffd42a;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5-0-7-0"
-       width="10.384377"
-       height="9.1861801"
-       x="160.64075"
-       y="267.7131"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#ff0000;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5-0-74"
-       width="10.384377"
-       height="9.1861801"
-       x="160.64075"
-       y="195.42351"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#e9afdd;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect21576-5-0-0"
-       width="10.384377"
-       height="9.1861801"
-       x="160.22078"
-       y="176.87793"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.60757"
-       y="183.96936"
-       id="text31254"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan31252"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.60757"
-         y="183.96936">wg</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.76917"
-       y="203.97919"
-       id="text31254-3"><tspan
-         sodipodi:role="line"
-         id="tspan31252-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.76917"
-         y="203.97919">svp-lacZ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.77432"
-       y="221.9053"
-       id="text31254-4"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan31252-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.77432"
-         y="221.9053">gsb</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.92935"
-       y="257.58228"
-       id="text31254-48"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan31252-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.92935"
-         y="257.58228">vnd</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.89975"
-       y="239.53548"
-       id="text31254-9"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan31252-5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.89975"
-         y="239.53548">ind</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.73816"
-       y="274.92529"
-       id="text31254-7"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan31252-26"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.73816"
-         y="274.92529">ac</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="173.73816"
-       y="166.90611"
-       id="text31254-5"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan31252-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
-         x="173.73816"
-         y="166.90611">en</tspan></text>
-  </g>
+     id="g4357" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Chart-Layer: apples:3,bananas:3,oranges:3"
@@ -620,24 +454,192 @@
            y="138.4568"
            id="tspan1135">5-6</tspan></text>
     </g>
-    <circle
-       id="path20626-8-7"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
-       cx="165.83293"
-       cy="163.87183"
-       r="0.052543305"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <circle
-       id="path20630-2-3"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
-       cx="167.80219"
-       cy="150.08702"
-       r="0.052543305"
-       inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+    <g
+       id="g1660">
+      <rect
+         style="fill:#0000d4;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5"
+         width="10.384377"
+         height="9.1861801"
+         x="160.64075"
+         y="213.49591"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#0bcbfe;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5-6"
+         width="10.384377"
+         height="9.1861801"
+         x="160.64075"
+         y="249.6407"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#48bd00;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5-0"
+         width="10.384377"
+         height="9.1861801"
+         x="160.64075"
+         y="231.5683"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#c87137;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5-0-7-7"
+         width="10.384377"
+         height="9.1861801"
+         x="160.64075"
+         y="159.27873"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#ffd42a;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5-0-7-0"
+         width="10.384377"
+         height="9.1861801"
+         x="160.64075"
+         y="267.7131"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5-0-74"
+         width="10.384377"
+         height="9.1861801"
+         x="160.64075"
+         y="195.42351"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#e9afdd;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect21576-5-0-0"
+         width="10.384377"
+         height="9.1861801"
+         x="160.22078"
+         y="176.87793"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.60757"
+         y="183.96936"
+         id="text31254"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan31252"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.60757"
+           y="183.96936">wg</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.76917"
+         y="203.97919"
+         id="text31254-3"><tspan
+           sodipodi:role="line"
+           id="tspan31252-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.76917"
+           y="203.97919">svp-lacZ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.77432"
+         y="221.9053"
+         id="text31254-4"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan31252-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.77432"
+           y="221.9053">gsb</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.92935"
+         y="257.58228"
+         id="text31254-48"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan31252-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.92935"
+           y="257.58228">vnd</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.89975"
+         y="239.53548"
+         id="text31254-9"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan31252-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.89975"
+           y="239.53548">ind</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.73816"
+         y="274.92529"
+         id="text31254-7"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan31252-26"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.73816"
+           y="274.92529">ac</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="173.73816"
+         y="166.90611"
+         id="text31254-5"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan31252-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';stroke-width:0.264583"
+           x="173.73816"
+           y="166.90611">en</tspan></text>
+      <circle
+         id="path20626-8-7"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
+         cx="165.83293"
+         cy="163.87183"
+         r="0.052543305"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <circle
+         id="path20630-2-3"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.264583"
+         cx="167.80219"
+         cy="150.08702"
+         r="0.052543305"
+         inkscape:export-filename="/Users/ybahar/Desktop/nbs.tiff"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
     <g
        id="g1457"
        transform="translate(-15.944264,6.0896164)">
