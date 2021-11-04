@@ -13,7 +13,10 @@
    version="1.1"
    id="svg2581"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="Network_S1.svg">
+   sodipodi:docname="Network_S1.svg"
+   inkscape:export-filename="/Users/ybahar/Documents/Git/DevelopmentalSignaling/Ginsim/my-notebooks/svg/Network_4Nov.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2575">
     <marker
@@ -196,6 +199,18 @@
          d="M -1 -4 L -1 4 L 1 4 L 1 -4 z"
          id="path3219" />
     </marker>
+    <marker
+       id="Marker_NEGATIVE_c80000-03"
+       viewBox="-7 -7 12 15"
+       orient="auto"
+       markerHeight="9"
+       markerWidth="9">
+      <path
+         stroke="#c80000"
+         fill="#c80000"
+         d="M -1,-4 V 4 H 1 V -4 Z"
+         id="path2585-9" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -204,17 +219,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.65975396"
-     inkscape:cx="376.52373"
-     inkscape:cy="608.02094"
+     inkscape:zoom="0.8856663"
+     inkscape:cx="230.76401"
+     inkscape:cy="585.43907"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3257"
+     inkscape:current-layer="g2959"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1701"
-     inkscape:window-height="1003"
-     inkscape:window-x="1430"
-     inkscape:window-y="52"
+     inkscape:window-width="1516"
+     inkscape:window-height="976"
+     inkscape:window-x="1291"
+     inkscape:window-y="131"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -239,15 +254,15 @@
        transform="matrix(0.26458333,0,0,0.26458333,7.694881,46.906847)">
       <path
          class="edge edge_NEGATIVE edge_edge_style_2"
-         marker-end="url(#Marker_NEGATIVE_c80000)"
-         d="m 219.74539,437 h -44 v 54"
-         id="path2590"
-         style="stroke-width:1.88976;stroke-miterlimit:4;stroke-dasharray:none" />
+         marker-end="url(#Marker_NEGATIVE_c80000-03)"
+         d="m 263.3367,447.77457 h -15.20774 v 44.96725"
+         id="path2590-4"
+         style="fill:none;stroke:#c80000;stroke-width:1.88976;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Marker_NEGATIVE_c80000-03)" />
       <path
-         class="edge edge_NEGATIVE edge_edge_style"
-         marker-end="url(#Marker_NEGATIVE_00cc33)"
-         d="m 247.74538,451.99998 v 1.04389 38.62368"
-         id="path2597"
+         class="edge edge_NEGATIVE edge_edge_style_2"
+         marker-end="url(#Marker_NEGATIVE_c80000)"
+         d="m 219.74539,436.98099 h -44 V 492.132"
+         id="path2590"
          style="stroke-width:1.88976;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          class="edge edge_POSITIVE edge_edge_style"
@@ -378,7 +393,7 @@
       <path
          class="edge edge_NEGATIVE edge_edge_style_2"
          marker-end="url(#Marker_NEGATIVE_c80000)"
-         d="m 367.97014,342.97545 v 228 h -87.41812"
+         d="m 367.98181,342.97545 v 228 h -88.56066"
          id="path2653"
          style="stroke-width:1.88976;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
@@ -785,31 +800,9 @@
              id="tspan2512">Gro</tspan></text>
       </g>
       <g
-         id="Hh"
-         class="node node_node_style"
-         style="stroke-width:1.5725;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="matrix(1.0400795,0,0,1.087511,-99.252641,-71.984385)">
-        <rect
-           id="Hh_shape"
-           class="shape"
-           width="60"
-           height="40"
-           x="224.50508"
-           y="95.505074"
-           style="stroke-width:1.5725;stroke-miterlimit:4;stroke-dasharray:none" />
-        <text
-           id="Hh_text"
-           x="254.39244"
-           y="123.12514"
-           text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5663px;font-family:Verdana;-inkscape-font-specification:Verdana;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000;stroke-width:1.5725;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.059px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-             id="tspan2508">Hh</tspan></text>
-      </g>
-      <g
          id="wg"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="translate(-90.254609)">
         <rect
            id="wg_shape"
@@ -818,21 +811,21 @@
            height="35"
            x="233"
            y="495"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="wg_text"
            x="261.01562"
            y="516.27606"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33330000000000126px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2516">wg</tspan></text>
       </g>
       <g
          id="Wg"
          class="node node_node_style"
-         style="stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="matrix(1.0393702,0,0,1,-106.35103,-58.371347)">
+         style="fill:#fff6d5;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(1.0393702,0,0,1,-106.35103,-59.556111)">
         <rect
            id="Wg_shape"
            class="shape"
@@ -840,20 +833,20 @@
            height="40"
            x="425"
            y="92"
-           style="stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="fill:#fff6d5;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none" />
         <text
            id="Wg_text"
            x="455.47513"
            y="117.44592"
            text-anchor="middle"
-           style="font-size:26.6667px;font-family:SansSerif;text-anchor:middle;fill:#000000;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9254px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-size:26.6667px;font-family:SansSerif;text-anchor:middle;fill:#2b1100;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9254px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b1100;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"
              id="tspan3636">Wg</tspan></text>
       </g>
       <g
          id="en"
          class="node node_node_style_3"
-         style="stroke-width:1.8341;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.8341;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="matrix(0.99922183,0,0,1.0216082,-90.581581,-6.9900937)">
         <rect
            id="en_shape"
@@ -862,21 +855,21 @@
            height="35"
            x="430"
            y="306"
-           style="stroke-width:1.8341;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.8341;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="en_text"
            x="457.866"
            y="329.28387"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.8341;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1147px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.8341;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.11469999999999914px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2542">en</tspan></text>
       </g>
       <g
          id="hh"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
-         transform="translate(-90.254609,0.96322632)">
+         style="fill:#b3b3b3;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="translate(-89.125516,1.527773)">
         <rect
            id="hh_shape"
            class="shape"
@@ -884,20 +877,20 @@
            height="35"
            x="310.48181"
            y="494.03677"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="fill:#b3b3b3;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
         <text
            id="hh_text"
            x="337.94016"
            y="519.64093"
            text-anchor="middle"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"
              id="tspan2518">hh</tspan></text>
       </g>
       <g
          id="gsb"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="translate(-91.25461,1.0000001)">
         <rect
            id="gsb_shape"
@@ -906,20 +899,20 @@
            height="35"
            x="151"
            y="560"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="gsb_text"
            x="178.5"
            y="583.40106"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#b3b3b3;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000"
              id="tspan2520">gsb</tspan></text>
       </g>
       <g
          id="Egfr"
          class="node node_node_style"
-         style="stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none;fill:#fff6d5"
          transform="matrix(1.0393702,0,0,1,-51.925143,-63.084027)">
         <rect
            id="Egfr_shape"
@@ -928,20 +921,20 @@
            height="40"
            x="687.7074"
            y="95.527916"
-           style="stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none;fill:#fff6d5" />
         <text
            id="Egfr_text"
            x="716.65497"
            y="121.3672"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9254px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#2b1100;stroke-width:1.78519;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.92539999999999978px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b1100;"
              id="tspan2536">Egfr</tspan></text>
       </g>
       <g
          id="vnd"
          class="node node_node_style_3"
-         style="stroke-width:1.89817;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89817;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="matrix(0.99314902,0,0,1,-21.26743,-26.999841)">
         <rect
            id="vnd_shape"
@@ -950,20 +943,20 @@
            height="35"
            x="692"
            y="333"
-           style="stroke-width:1.89817;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89817;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="vnd_text"
            x="720.14807"
            y="358.47006"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89817;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.4068px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89817;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.40680000000000049px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2530">vnd</tspan></text>
       </g>
       <g
          id="ind"
          class="node node_node_style_3"
-         style="stroke-width:1.89824;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89824;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="matrix(0.99306414,0,0,1.0000091,-59.592476,-32.003076)">
         <rect
            id="ind_shape"
@@ -972,22 +965,22 @@
            height="35"
            x="528"
            y="338"
-           style="stroke-width:1.89824;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89824;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="ind_text"
            x="555.55225"
            y="363.47037"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89824;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89824;stroke-miterlimit:4;stroke-dasharray:none;"
            inkscape:transform-center-x="-0.062187148"
            inkscape:transform-center-y="-2.7362345"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.4076px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.40759999999999863px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2528">ind</tspan></text>
       </g>
       <g
          id="Dr"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="translate(-34.55157,-38.48075)">
         <rect
            id="Dr_shape"
@@ -996,20 +989,20 @@
            height="35"
            x="603"
            y="441"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="Dr_text"
            x="629.42706"
            y="466.25519"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33330000000000126px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2526">Dr</tspan></text>
       </g>
       <g
          id="svp"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="translate(-80.03463,24.15697)">
         <rect
            id="svp_shape"
@@ -1018,20 +1011,20 @@
            height="35"
            x="479"
            y="595"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="svp_text"
            x="506.48959"
            y="616.33331"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33330000000000126px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2522">svp</tspan></text>
       </g>
       <g
          id="ac"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          transform="translate(-29.55157,-2.80807)">
         <rect
            id="ac_shape"
@@ -1040,20 +1033,20 @@
            height="35"
            x="598"
            y="493"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="ac_text"
            x="625.25519"
            y="516.29688"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66669999999999874px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33330000000000126px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;"
              id="tspan2524">ac</tspan></text>
       </g>
       <g
          id="hkb"
          class="node node_node_style_3"
-         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none"
+         style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3"
          inkscape:transform-center-y="-1.7756945"
          transform="translate(-85.99474,4.9778443)">
         <rect
@@ -1063,13 +1056,13 @@
            height="35"
            x="306.49997"
            y="556.02216"
-           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;fill:#b3b3b3" />
         <text
            id="hkb_text"
            x="333.59894"
            y="581.46484"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none">hkb</text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33330000000000126px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000;stroke-width:1.89165;stroke-miterlimit:4;stroke-dasharray:none;">hkb</text>
       </g>
       <g
          id="NB7_1"
@@ -1202,7 +1195,8 @@
    id="tspan2502">A</tspan></text>
       <g
          id="g3104"
-         transform="translate(-349.19596,167.9194)">
+         transform="matrix(1,0,0,1.0030269,-349.19596,167.86666)"
+         style="stroke-width:0.998493">
         <path
            class="edge edge_NEGATIVE"
            marker-end="url(#Marker_NEGATIVE_c80000-0)"
@@ -1211,11 +1205,12 @@
            style="marker-end:url(#Marker_NEGATIVE_c80000-0)" />
         <g
            id="g3257"
-           transform="translate(-13.107087,-185.88599)">
+           transform="translate(-13.107087,-185.88599)"
+           style="stroke-width:0.998493">
           <path
              class="edge edge_POSITIVE"
              marker-end="url(#Marker_POSITIVE_00c800-4)"
-             d="m 757.70433,204.81523 h 52.64035 v 331.52972 h 113.27671"
+             d="m 757.70433,279.33539 h 52.64035 v 257.00956 h 113.27671"
              id="path3217"
              style="marker-end:url(#Marker_POSITIVE_00c800-4)" />
         </g>
@@ -1228,6 +1223,32 @@
        text-anchor="middle"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Verdana;-inkscape-font-specification:Verdana;baseline-shift:super;stroke-width:0.0350371;stroke-miterlimit:4;stroke-dasharray:none"
        transform="scale(0.91703644,1.0904692)" />
+    <g
+       id="Hh"
+       class="node node_node_style"
+       style="fill:#fff6d5;stroke-width:1.5725;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0.2751877,0,0,0.28773729,-18.565713,28.000656)">
+      <rect
+         id="Hh_shape"
+         class="shape"
+         width="60"
+         height="40"
+         x="224.50508"
+         y="95.505074"
+         style="fill:#fff6d5;stroke-width:1.5725;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="Hh_text"
+         x="254.39244"
+         y="123.12514"
+         text-anchor="middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5663px;font-family:Verdana;-inkscape-font-specification:Verdana;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#2b1100;stroke-width:1.5725;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.059px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b1100"
+           id="tspan2508"><tspan
+             style="fill:#2b1100"
+             id="tspan1599">H</tspan><tspan
+             style="fill:#2b1100"
+             id="tspan1597">h</tspan></tspan></text>
+    </g>
   </g>
   <style
      type="text/css"
