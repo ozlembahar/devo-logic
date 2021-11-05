@@ -19,6 +19,12 @@
    inkscape:export-ydpi="96">
   <defs
      id="defs2575">
+    <rect
+       x="218.18845"
+       y="655.98523"
+       width="464.0574"
+       height="249.52965"
+       id="rect2670" />
     <marker
        id="Marker_NEGATIVE_c80000"
        viewBox="-7 -7 12 15"
@@ -219,17 +225,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.8856663"
-     inkscape:cx="230.76401"
-     inkscape:cy="585.43907"
+     inkscape:zoom="0.42201067"
+     inkscape:cx="37.349002"
+     inkscape:cy="642.22612"
      inkscape:document-units="mm"
      inkscape:current-layer="g2959"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1516"
-     inkscape:window-height="976"
-     inkscape:window-x="1291"
-     inkscape:window-y="131"
+     inkscape:window-width="1227"
+     inkscape:window-height="719"
+     inkscape:window-x="53"
+     inkscape:window-y="425"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -315,7 +321,7 @@
       <path
          class="edge edge_POSITIVE edge_edge_style"
          marker-end="url(#Marker_POSITIVE_00cc33)"
-         d="M 80.958869,596.77693 V 822.55866 H 485.77632"
+         d="M 80.932771,596.77693 V 822.55866 H 492.53994"
          id="path2620"
          style="stroke-width:1.88977;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
@@ -387,7 +393,7 @@
       <path
          class="edge edge_POSITIVE edge_edge_style"
          marker-end="url(#Marker_POSITIVE_00cc33)"
-         d="M 371.82522,341.27504 V 810.74912 H 485.77636"
+         d="M 371.73197,341.27504 V 810.74912 H 492.51183"
          id="path2651"
          style="stroke-width:1.88976;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
@@ -1067,8 +1073,8 @@
       <g
          id="NB7_1"
          class="node"
-         style="stroke-width:0.90794;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5"
-         transform="matrix(1.1321674,0,0,1.4408226,-247.91214,-240.83276)">
+         style="fill:#e6e6e6;stroke-width:0.90794;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(1.1321674,0,0,1.4408226,-241.9022,-240.83276)">
         <ellipse
            id="NB7_1_shape"
            class="shape"
@@ -1076,20 +1082,20 @@
            cy="731.5"
            rx="32.5"
            ry="12.5"
-           style="stroke-width:0.90794;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5" />
+           style="fill:#e6e6e6;stroke-width:0.90794;stroke-miterlimit:4;stroke-dasharray:none" />
         <text
            id="NB7_1_text"
            x="688.76917"
            y="737.59241"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.8789px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#ffd5d5;stroke-width:0.90794;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7031px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#280b0b"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.87890000000000157px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#2b0000;stroke-width:0.90794;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.70309999999999917px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b0000;"
              id="tspan2550">7-1</tspan></text>
       </g>
       <g
          id="NB7_4"
          class="node"
-         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5"
+         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6"
          transform="matrix(1.1338583,0,0,1.4408226,-238.53095,-286.7232)">
         <ellipse
            id="NB7_4_shape"
@@ -1098,20 +1104,20 @@
            cy="686.5"
            rx="32.5"
            ry="12.5"
-           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5" />
+           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6" />
         <text
            id="NB7_4_text"
            x="684.28406"
            y="692.5675"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.8634px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#ffd5d5;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6907px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#280b0b"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.86339999999999861px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#280b0b;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.69069999999999965px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#280b0b;"
              id="tspan2548">7-4</tspan></text>
       </g>
       <g
          id="NB5_6"
          class="node"
-         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5"
+         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6"
          transform="matrix(1.1338583,0,0,1.4408226,-180.59718,-303.94388)">
         <ellipse
            id="NB5_6_shape"
@@ -1120,22 +1126,22 @@
            cy="691.5"
            rx="32.5"
            ry="12.5"
-           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5" />
+           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6" />
         <text
            id="NB5_6_text"
            x="408.19846"
            y="697.5553"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.8634px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#ffd5d5;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6907px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffd5d5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.86339999999999861px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#2b0000;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.69069999999999965px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b0000;"
              id="tspan2544"><tspan
-               style="fill:#280b0b"
+               style="fill:#2b0000;"
                id="tspan2556">5-6</tspan></tspan></text>
       </g>
       <g
          id="NB5_3"
          class="node"
-         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5"
+         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6"
          transform="matrix(1.1338583,0,0,1.4408226,-180.59718,-322.8646)">
         <ellipse
            id="NB5_3_shape"
@@ -1144,20 +1150,20 @@
            cy="760.5"
            rx="32.5"
            ry="12.5"
-           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5" />
+           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6" />
         <text
            id="NB5_3_text"
            x="408.37369"
            y="766.5675"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.8634px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#ffd5d5;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6907px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#280b0b"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.86339999999999861px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#2b0000;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.69069999999999965px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b0000;"
              id="tspan2546">5-3</tspan></text>
       </g>
       <g
          id="NB5_2"
          class="node"
-         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5"
+         style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6"
          transform="matrix(1.1338583,0,0,1.4408226,-182.8649,-312.96888)">
         <ellipse
            id="NB5_2_shape"
@@ -1166,14 +1172,14 @@
            cy="809.5"
            rx="32.5"
            ry="12.5"
-           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffd5d5" />
+           style="stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;fill:#e6e6e6" />
         <text
            id="NB5_2_text"
            x="410.28812"
            y="815.5675"
            text-anchor="middle"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.8634px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#ffd5d5;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.6907px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#280b0b"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.86339999999999861px;font-family:Verdana;-inkscape-font-specification:Verdana;text-anchor:middle;fill:#2b0000;stroke-width:0.905912;stroke-miterlimit:4;stroke-dasharray:none;"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.69069999999999965px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2b0000;"
              id="tspan2552">5-2</tspan></text>
       </g>
       <rect
@@ -1215,6 +1221,10 @@
              style="marker-end:url(#Marker_POSITIVE_00c800-4)" />
         </g>
       </g>
+      <text
+         xml:space="preserve"
+         id="text2668"
+         style="line-height:1.25;font-family:Verdana;font-size:21.33333359999999956px;letter-spacing:0px;-inkscape-font-specification:'Verdana, Normal';white-space:pre;shape-inside:url(#rect2670);" />
     </g>
     <text
        id="Ci_act_text"
