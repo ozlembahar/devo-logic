@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd">
+<svg width="822.0" height="501.0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <style type="text/css">
+text {
+  font-family: 'SansSerif';
+  font-size: 12px;
+}
+.node .shape {
+fill: #ffffff;
+stroke: #000000;
+}
+.node text {
+fill: #000000;
+}
+.edge {
+stroke: #000000;
+fill: none;
+stroke-width: 1;
+}
+.edge_inc {
+stroke: #000000;
+}
+.edge_dec {
+stroke: #000000;
+}
+</style>
+  <defs>
+    <marker id="Marker_POSITIVE_000000" viewBox="-7 -7 12 15" orient="auto" markerHeight="9" markerWidth="9">
+      <path stroke="#000000" fill="#000000" d="M -4 -5 L -2 0 L -4 5 L 2 0 z"/>
+    </marker>
+  </defs>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 640.0 469.0 L 642.0 406.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 384.0 417.0 L 384.0 344.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 379.0 417.0 L 254.0 137.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 388.0 446.0 L 388.0 477.0 L 614.0 477.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 437.0 223.0 L 629.0 467.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 403.0 197.0 L 275.0 132.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 667.0 390.0 L 768.0 390.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 409.0 328.0 L 459.0 328.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 360.0 320.0 L 204.0 259.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 409.0 333.0 L 616.0 384.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 182.0 266.0 L 248.0 460.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 185.0 237.0 L 242.0 137.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 451.0 110.0 L 528.0 110.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 426.0 125.0 L 427.0 192.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 436.0 125.0 L 631.0 374.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 404.0 125.0 L 201.0 236.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 770.0 483.0 L 666.0 483.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 461.0 431.0 L 410.0 431.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 461.0 417.0 L 277.0 336.0 L 275.0 332.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 510.0 435.0 L 768.0 479.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 249.0 302.0 L 249.0 137.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 530.0 208.0 L 453.0 208.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 565.0 223.0 L 782.0 467.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 530.0 216.0 L 275.0 308.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 794.0 405.0 L 794.0 467.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 485.0 343.0 L 485.0 415.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 465.0 343.0 L 273.0 460.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 510.0 332.0 L 768.0 385.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 252.0 462.0 L 249.0 332.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 554.0 125.0 L 554.0 192.0"/>
+  <path class="edge edge_dec" marker-end="url(#Marker_POSITIVE_000000)" d="M 565.0 125.0 L 782.0 374.0"/>
+  <path class="edge edge_inc" marker-end="url(#Marker_POSITIVE_000000)" d="M 544.0 125.0 L 263.0 460.0"/>
+  <g id="0000" class="node">
+    <rect id="0000_shape" class="shape" width="45" height="25" x="618" y="471"/>
+    <text  id="0000_text" x="640" y="486" text-anchor="middle">0000</text>
+  </g>
+  <g id="1000" class="node">
+    <rect id="1000_shape" class="shape" width="45" height="25" x="362" y="419"/>
+    <text  id="1000_text" x="384" y="434" text-anchor="middle">1000</text>
+  </g>
+  <g id="1100" class="node">
+    <rect id="1100_shape" class="shape" width="45" height="25" x="227" y="109"/>
+    <text  id="1100_text" x="249" y="124" text-anchor="middle">1100</text>
+  </g>
+  <g id="0100" class="node">
+    <rect id="0100_shape" class="shape" width="45" height="25" x="405" y="196"/>
+    <text  id="0100_text" x="427" y="211" text-anchor="middle">0100</text>
+  </g>
+  <g id="0010" class="node">
+    <rect id="0010_shape" class="shape" width="45" height="25" x="620" y="378"/>
+    <text  id="0010_text" x="642" y="393" text-anchor="middle">0010</text>
+  </g>
+  <g id="1010" class="node">
+    <rect id="1010_shape" class="shape" width="45" height="25" x="362" y="316"/>
+    <text  id="1010_text" x="384" y="331" text-anchor="middle">1010</text>
+  </g>
+  <g id="1110" class="node">
+    <rect id="1110_shape" class="shape" width="45" height="25" x="156" y="239"/>
+    <text  id="1110_text" x="178" y="254" text-anchor="middle">1110</text>
+  </g>
+  <g id="0110" class="node">
+    <rect id="0110_shape" class="shape" width="45" height="25" x="404" y="98"/>
+    <text  id="0110_text" x="426" y="113" text-anchor="middle">0110</text>
+  </g>
+  <g id="0001" class="node">
+    <rect id="0001_shape" class="shape" width="45" height="25" x="772" y="471"/>
+    <text  id="0001_text" x="794" y="486" text-anchor="middle">0001</text>
+  </g>
+  <g id="1001" class="node">
+    <rect id="1001_shape" class="shape" width="45" height="25" x="463" y="419"/>
+    <text  id="1001_text" x="485" y="434" text-anchor="middle">1001</text>
+  </g>
+  <g id="1101" class="node">
+    <rect id="1101_shape" class="shape" width="45" height="25" x="227" y="304"/>
+    <text  id="1101_text" x="249" y="319" text-anchor="middle">1101</text>
+  </g>
+  <g id="0101" class="node">
+    <rect id="0101_shape" class="shape" width="45" height="25" x="532" y="196"/>
+    <text  id="0101_text" x="554" y="211" text-anchor="middle">0101</text>
+  </g>
+  <g id="0011" class="node">
+    <rect id="0011_shape" class="shape" width="45" height="25" x="772" y="378"/>
+    <text  id="0011_text" x="794" y="393" text-anchor="middle">0011</text>
+  </g>
+  <g id="1011" class="node">
+    <rect id="1011_shape" class="shape" width="45" height="25" x="463" y="316"/>
+    <text  id="1011_text" x="485" y="331" text-anchor="middle">1011</text>
+  </g>
+  <g id="1111" class="node">
+    <rect id="1111_shape" class="shape" width="45" height="25" x="230" y="464"/>
+    <text  id="1111_text" x="252" y="479" text-anchor="middle">1111</text>
+  </g>
+  <g id="0111" class="node">
+    <rect id="0111_shape" class="shape" width="45" height="25" x="532" y="98"/>
+    <text  id="0111_text" x="554" y="113" text-anchor="middle">0111</text>
+  </g>
+</svg>
