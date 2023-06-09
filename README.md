@@ -1,2 +1,2 @@
 # DevelopmentalSignaling
-A Boolean model of the signaling pathways regulating D.m. development
+A Boolean model of the signaling mechanisms in early nervous system development
