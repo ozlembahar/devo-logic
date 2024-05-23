@@ -1,7 +1,0 @@
-install.packages("gt")
-library(gt)
-library(tidyverse)
-library(glue)
-install.packages("devtools")
-library(devtools)
-devtools::install_github("jcheng5/bubbles")
